@@ -1,0 +1,174 @@
+@import url(RocknRollOne-Regular.ttf);
+
+
+body  {
+    display: flex;
+    flex-wrap: unset;
+    font-family:"RocknRoll One", sans-serif; 
+    color: white;
+    background: linear-gradient(180deg,rgba(0,0,0,0.5),rgba(0,0,0,0.3),rgba(0,0,0,0.2),rgba(0,0,0,0.1)
+    )no-repeat
+    ,url("food.jpg")no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+   
+}
+
+.box {
+    width: 1000px;
+    float: left;
+   
+}
+.box ul li a {
+    text-decoration: none;
+    color:blanchedalmond;
+}
+.box ul li{
+    width: 120px;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+    
+}
+.box ul li a {
+    text-decoration: none;
+    color:darkgrey
+}
+.box ul li:hover {
+    height: 30px;
+    background-color: green;
+    border-radius: 5px 0 5px 0;
+    padding-top: 5px;
+}
+.box ul li a:hover {
+    color:white;
+}
+.wellcome {
+    
+    width: 300px;
+    height: 540px;
+    background-color: black;
+    opacity: 0.9;
+    padding:55px;
+    margin-top: 10px;
+}
+.wellcome h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100px;
+    
+}
+.wellcome h4 {
+    display:flex;
+    padding-top: 50px;
+    text-align: justify;
+    color: darkgrey;
+    font-weight: normal; 
+}
+
+.wellcome h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 40px auto;
+    margin-top:120px;
+}
+.wellcome button {
+    height: 40px;
+    width: 250px;
+    font-size: large;
+    background-color: black;
+    color: blanchedalmond;
+    padding: 5px;
+    margin-left: 25px;  
+}
+.wellcome button:hover {
+    background-color: green;
+}
+.numerestaurant {
+    height: 400px;
+    max-width: 700px;
+    display:flex;
+    margin-top: 100px;
+}
+.nume {
+    color: #FFF;
+    font-size: 50px;
+    margin:auto;
+}
+.numerestaurant2 {
+    display: none;
+}
+@media only screen and (max-width:900px) {
+   
+    .box {
+        height: 200px;
+        margin-left: -40px;
+    }
+    .wellcome {
+        background-color: rgba(0, 0, 0,0.6);
+        height: 450px;
+    }
+    .wellcome h1 {
+        margin-left: -45px;
+        font-weight: 60px;
+    }
+    
+    .wellcome h4 {
+        margin-left: -40px;
+    }
+    .wellcome h2 {
+        margin-left: -40px;
+        margin-top: 10px;
+    }
+    .wellcome button {
+        margin-left: -30px;
+    }
+    .numerestaurant {
+       display:none;
+    }
+    .numerestaurant2 {
+        display: flex;
+        margin-top: 630px;
+        margin-left:-350px;
+    }
+    .nume {
+        font-size: 35px;
+    }
+}
+.meniu {
+    margin-top: 120px;
+    margin-left: -300px;
+}
+
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+  }
+
+.container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.container-2-box {
+   
+   flex-basis: 25%;
+}
+.container-3-box {
+    flex-basis: 25%;
+
+}
+@media only  screen and(max-width:415px) {
+
+    .container-2-box {
+        min-width: 200px;
+    }
+    .container-3-box {
+        min-width: 200px;
+    }
+    
+}
